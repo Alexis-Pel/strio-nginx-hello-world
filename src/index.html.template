@@ -29,8 +29,8 @@
 						<img class="img-fluid" src="logo.png" alt="strio logo" />
 					</h3>
 					<nav class="nav nav-masthead justify-content-center">
-						<a class="nav-link" href="#">Documentation</a>
-						<a class="nav-link" href="#">Getting started</a>
+						<a class="nav-link" href="https://docs.strio.co/">Documentation</a>
+						<a class="nav-link" href="https://docs.strio.co/getting-started/deploy-one-of-our-app/a-simple-nginx-pod">Getting started</a>
 					</nav>
 				</div>
 			</header>

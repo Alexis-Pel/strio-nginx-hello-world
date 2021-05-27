@@ -1,0 +1,23 @@
+## Global parameters
+
+global:
+  env: strio
+  strio:
+    deployedAt: ${STRIO_DEPLOYED_AT}
+    domain: ${STRIO_DOMAIN}
+    git:
+      commit: ${STRIO_GIT_COMMIT}
+      branch: ${STRIO_GIT_BRANCH}
+      branchSlug: ${STRIO_GIT_BRANCH_SLUG}
+      pullRequest:
+        id: ${STRIO_GIT_PULLREQUEST_ID}
+    deployment:
+      author: ${STRIO_DEPLOYMENT_AUTHOR}
+    environment:
+      name: ${STRIO_ENVIRONMENT_NAME}
+      url: ${STRIO_ENVIRONMENT_URL}
+      number: ${STRIO_ENVIRONMENT_NUMBER}
+      namespace: ${STRIO_ENVIRONMENT_NAMESPACE}
+    vars: ${STRIO_NGINX_ENV_VARS}
+
+test: "values.strio-branch.yaml"
